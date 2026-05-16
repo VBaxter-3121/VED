@@ -10,6 +10,8 @@ public class VEDTarget : TargetRules
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_6;
+		ExtraModuleNames.AddRange(new string[] { "VED", "Enlightened" });
+
 		ExtraModuleNames.Add("VED");
 	}
 }
